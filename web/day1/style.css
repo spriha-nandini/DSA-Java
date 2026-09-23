@@ -1,0 +1,35 @@
+body{
+    background-color:white;
+    font-family:Arial;
+    margin:40px;
+}
+
+h1{
+    color:darkblue;
+}
+
+h2{
+    color:#444;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid black;
+    padding:8px;
+}
+
+a{
+    text-decoration:none;
+    color:darkblue;
+    font-weight:bold;
+}
+
+button{
+    background-color:darkblue;
+    color:white;
+    padding:10px 16px;
+    border:none;
+}
