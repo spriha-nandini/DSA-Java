@@ -12,23 +12,19 @@ List<Integer> list = new ArrayList<>();
 ArrayList<Integer> arr = new ArrayList<>();
 ```
 
-## ✨ Input
-
-```java
-list.add(sc.nextInt());
-```
-
----
-
 ## ✨ Functions
 
 | Task | Syntax |
 |------|--------|
 | Add | `list.add(x)` |
+| Insert | `list.add(i,x)` |
 | Get | `list.get(i)` |
 | Update | `list.set(i,x)` |
 | Remove | `list.remove(i)` |
 | Size | `list.size()` |
+| Contains | `list.contains(x)` |
+| Clear | `list.clear()` |
+| Empty | `list.isEmpty()` |
 
 ---
 
@@ -58,5 +54,5 @@ for(int x:arr){
 
 - Sparse Arrays
 - Ransom Note
-- HackerRank List Questions
-- Dynamic Array Problems
+- HackerRank List
+- Dynamic Array
