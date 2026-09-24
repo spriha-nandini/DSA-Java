@@ -8,11 +8,12 @@
 
 ```java
 List<Integer> list = new ArrayList<>();
-
 ArrayList<Integer> arr = new ArrayList<>();
 ```
 
-## ✨ Functions
+---
+
+## ✨ List Functions
 
 | Task | Syntax |
 |------|--------|
@@ -28,24 +29,39 @@ ArrayList<Integer> arr = new ArrayList<>();
 
 ---
 
+## ✨ ArrayList Functions
+
+| Task | Syntax |
+|------|--------|
+| Add End | `arr.add(x)` |
+| Add Index | `arr.add(i,x)` |
+| Get | `arr.get(i)` |
+| Set | `arr.set(i,x)` |
+| Remove Index | `arr.remove(i)` |
+| Remove Value | `arr.remove(Integer.valueOf(x))` |
+| Index Of | `arr.indexOf(x)` |
+| Last Index | `arr.lastIndexOf(x)` |
+| Sort | `Collections.sort(arr)` |
+| Reverse | `Collections.reverse(arr)` |
+
+---
+
 ## ✨ Conversion
 
 ### List → Array
 
 ```java
-int[] arr = new int[list.size()];
+int[] a = new int[list.size()];
 
-for(int i=0;i<list.size();i++){
-    arr[i]=list.get(i);
-}
+for(int i=0;i<list.size();i++)
+    a[i]=list.get(i);
 ```
 
-### Array → List
+### Array → List / ArrayList
 
 ```java
-for(int x:arr){
+for(int x : a)
     list.add(x);
-}
 ```
 
 ---
@@ -54,5 +70,7 @@ for(int x:arr){
 
 - Sparse Arrays
 - Ransom Note
+- Dynamic Array
+- HackerRank List Questions
 - HackerRank List
 - Dynamic Array
